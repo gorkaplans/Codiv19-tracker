@@ -1,0 +1,43 @@
+
+.title-container{
+    width: 50%;
+    margin-right: auto;
+    margin-left: 10%;
+}
+
+.title{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #1B2137;
+    margin-bottom: 1rem;
+
+}
+
+.text{
+    width: 80%;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height:1.4rem;
+    color: #1B2137;
+    margin-top: 0;
+}
+
+
+@media (max-width: 770px) {
+
+    .title-container{
+        width: 100%;
+        margin: 0;
+    }
+
+    .title{
+        line-height: 40px;
+    }
+}

@@ -1,5 +1,6 @@
 .container{
-    margin: 50px 0 ;
+    margin: 100px 0 ;
+    height: 200px;
 }
 
 .card{
@@ -8,16 +9,71 @@
 }
 
 .infected{
-    border-bottom: 10px solid #93C5FD;    
+    border: 1px solid #2E65E6; 
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 10px !important;
+    transition: width .5s ease, background-color .5s ease !important;
+    background-color: #FBFBFB !important;
+    -webkit-transition: all 0.1s ease-in !important;
+    -moz-transition: all 0.1s ease-in !important;
+    -o-transition: all 0.1s ease-in !important;
+    transition: all 0.1s ease-in !important;
+
+
+
+}
+
+.infected:hover{
+    box-shadow: 0px 20px 46px rgba(0, 0, 0, 0.2) !important;
+    border-bottom: 10px solid #2E65E6;   
+    transform: scale(1.02);
+
 }
 
 .recovered{
-    border-bottom: 10px solid #5EEAD4;
+    border: 1px solid #32C9D3; 
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 10px !important;
+    transition: width .5s ease, background-color .5s ease !important;
+    background-color: #FBFBFB !important;
+    -webkit-transition: all 0.1s ease-in !important;
+    -moz-transition: all 0.1s ease-in !important;
+    -o-transition: all 0.1s ease-in !important;
+    transition: all 0.1s ease-in !important;
+
+
+
+}
+
+.recovered:hover{
+    box-shadow: 0px 20px 46px rgba(0, 0, 0, 0.2) !important;
+    border-bottom: 10px solid #32C9D3;   
+    transform: scale(1.02);
+
 }
 
 .deaths{
-        border-bottom: 10px solid #FDA4AF;
+    border: 1px solid #F04E6B; 
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 10px !important;
+    transition: width .5s ease, background-color .5s ease !important;
+    background-color: #FBFBFB !important;
+    -webkit-transition: all 0.1s ease-in !important;
+    -moz-transition: all 0.1s ease-in !important;
+    -o-transition: all 0.1s ease-in !important;
+    transition: all 0.1s ease-in !important;
+
+
+
 }
+
+.deaths:hover{
+    box-shadow: 0px 20px 46px rgba(0, 0, 0, 0.2) !important;
+    border-bottom: 10px solid #F04E6B;   
+    transform: scale(1.02);
+
+}
+
 
 
 @media (max-width: 770px) {
